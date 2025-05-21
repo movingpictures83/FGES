@@ -1,0 +1,33 @@
+digraph g {
+ "history_recruitment" -> "m_sn_gt_1k" [arrowtail=none, arrowhead=normal, label="history_recruitment - m_sn_gt_1k\n[---]:0.3333333333333333\n[-->]:0.5\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "bser" -> "history_nausea" [arrowtail=none, arrowhead=normal, label="bser - history_nausea\n[-->]:0.6666666666666666\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "history_fluctuating" -> "m_sn_lt_1k" [dir=both, arrowtail=normal, arrowhead=none, label="history_fluctuating - m_sn_lt_1k\n[-->]:0.16666666666666666\n[<--]:0.3333333333333333\n[---]:0.16666666666666666\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "ar_u" -> "tymp" [dir=both, arrowtail=normal, arrowhead=none, label="ar_u - tymp\n[<--]:0.3333333333333333\n[-->]:0.16666666666666666\n[---]:0.16666666666666666\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "history_noise" -> "notch_at_4k" [dir=both, arrowtail=normal, arrowhead=none, label="history_noise - notch_at_4k\n[---]:0.16666666666666666\n[-->]:0.3333333333333333\n[<--]:0.5", fontname=courier]; 
+ "bone" -> "indentifier" [dir=both, arrowtail=normal, arrowhead=none, label="bone - indentifier\n[---]:0.16666666666666666\n[<--]:0.6666666666666666\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "bser" -> "late_wave_poor" [arrowtail=none, arrowhead=none, label="bser - late_wave_poor\n[-->]:0.3333333333333333\n[---]:0.5\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "air" -> "bone" [dir=both, arrowtail=normal, arrowhead=none, label="air - bone\n[<--]:0.6666666666666666\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "history_fluctuating" -> "static_normal" [arrowtail=none, arrowhead=none, label="history_fluctuating - static_normal\n[<--]:0.16666666666666666\n[-->]:0.16666666666666666\n[---]:0.3333333333333333\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "m_m_gt_2k" -> "m_s_gt_500" [arrowtail=none, arrowhead=none, label="m_m_gt_2k - m_s_gt_500\n[---]:0.3333333333333333\n[<--]:0.3333333333333333\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "history_buzzing" -> "history_fullness" [arrowtail=none, arrowhead=none, label="history_buzzing - history_fullness\n[-->]:0.3333333333333333\n[---]:0.6666666666666666", fontname=courier]; 
+ "bone" -> "boneAbnormal" [arrowtail=none, arrowhead=normal, label="bone - boneAbnormal\n[---]:0.16666666666666666\n[<--]:0.16666666666666666\n[-->]:0.5\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "age_gt_60" -> "class" [arrowtail=none, arrowhead=normal, label="age_gt_60 - class\n[-->]:1.0", fontname=courier]; 
+ "air" -> "airBoneGap" [dir=both, arrowtail=normal, arrowhead=none, label="air - airBoneGap\n[<--]:0.8333333333333334\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "m_m_sn_gt_2k" -> "notch_4k" [arrowtail=none, arrowhead=normal, label="m_m_sn_gt_2k - notch_4k\n[---]:0.16666666666666666\n[-->]:0.5\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "class" -> "tymp" [dir=both, arrowtail=normal, arrowhead=none, label="class - tymp\n[<--]:1.0", fontname=courier]; 
+ "history_ringing" -> "m_sn_gt_500" [arrowtail=none, arrowhead=none, label="history_ringing - m_sn_gt_500\n[---]:0.5\n[<--]:0.5", fontname=courier]; 
+ "notch_at_4k" -> "wave_V_delayed" [dir=both, arrowtail=normal, arrowhead=none, label="notch_at_4k - wave_V_delayed\n[<--]:0.5\n[---]:0.16666666666666666\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "history_fluctuating" -> "history_recruitment" [arrowtail=none, arrowhead=none, label="history_fluctuating - history_recruitment\n[---]:0.3333333333333333\n[-->]:0.16666666666666666\n[<--]:0.3333333333333333\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "ar_c" -> "o_ar_u" [arrowtail=none, arrowhead=normal, label="ar_c - o_ar_u\n[-->]:0.6666666666666666\n[---]:0.16666666666666666\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "indentifier" -> "speech" [arrowtail=none, arrowhead=normal, label="indentifier - speech\n[---]:0.16666666666666666\n[-->]:0.6666666666666666\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "bser" -> "middle_wave_poor" [arrowtail=none, arrowhead=none, label="bser - middle_wave_poor\n[-->]:0.3333333333333333\n[---]:0.6666666666666666", fontname=courier]; 
+ "class" -> "indentifier" [arrowtail=none, arrowhead=normal, label="class - indentifier\n[-->]:0.6666666666666666\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "ar_c" -> "o_ar_c" [dir=both, arrowtail=normal, arrowhead=none, label="ar_c - o_ar_c\n[-->]:0.16666666666666666\n[<--]:0.6666666666666666\n[---]:0.16666666666666666", fontname=courier]; 
+ "ar_u" -> "o_ar_c" [arrowtail=none, arrowhead=normal, label="ar_u - o_ar_c\n[-->]:0.3333333333333333\n[<--]:0.3333333333333333\n[---]:0.3333333333333333", fontname=courier]; 
+ "ar_u" -> "o_ar_u" [arrowtail=none, arrowhead=normal, label="ar_u - o_ar_u\n[-->]:0.5\n[---]:0.16666666666666666\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "history_roaring" -> "history_vomiting" [arrowtail=none, arrowhead=normal, label="history_roaring - history_vomiting\n[---]:0.3333333333333333\n[-->]:0.5\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "history_nausea" -> "history_roaring" [dir=both, arrowtail=normal, arrowhead=none, label="history_nausea - history_roaring\n[-->]:0.3333333333333333\n[---]:0.16666666666666666\n[<--]:0.5", fontname=courier]; 
+ "airBoneGap" -> "tymp" [arrowtail=none, arrowhead=none, label="airBoneGap - tymp\n[---]:0.5\n[-->]:0.16666666666666666\n[<--]:0.16666666666666666\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "history_buzzing" -> "wave_V_delayed" [arrowtail=none, arrowhead=none, label="history_buzzing - wave_V_delayed\n[---]:0.5\n[<--]:0.16666666666666666\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "history_heredity" -> "s_sn_gt_2k" [arrowtail=none, arrowhead=none, label="history_heredity - s_sn_gt_2k\n[-->]:0.16666666666666666\n[---]:0.5\n[no edge]:0.3333333333333333", fontname=courier]; 
+}
